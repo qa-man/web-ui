@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="environment" value="qa" />
+    <Parameter name="pat" value="personal_access_token" />
+    <Parameter name="user" value="user" />
+    <Parameter name="password" value="password" />
+    <Parameter name="browser" value="chrome" />
+  </TestRunParameters>
+</RunSettings>

@@ -1,0 +1,19 @@
+{
+  "AzureCollectionURL": "example/example",
+  "AzureHost": "https://dev.azure.com",
+  "AzureSuffix": "?fields=Microsoft.VSTS.TCM.Parameters&api-version=1.0",
+
+  "Example": {
+    "URL": {
+      "dev": "https://example-dev.azurewebsites.net/",
+      "qa": "https://example-qa.azurewebsites.net/"
+    },
+    "DataBaseConnectionString": {
+      "dev": "Server=tcp:example.database.windows.net,1433;Initial Catalog=dev;Persist Security Info=False;User ID=login;Password=password;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+      "qa": "Server=tcp:example.database.windows.net,1433;Initial Catalog=qa;Persist Security Info=False;User ID=login;Password=password;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    },
+    "Endpoint": {
+      "example": "api/example"
+    }
+  }
+}
